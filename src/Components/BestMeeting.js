@@ -67,6 +67,10 @@ const BestMeeting = () => {
   hasDate(polls);
   console.log(table);
 
+  // Next I would of made a function that searches through the different states in the table object and returned the states best meeting dates
+
+  // I don't believe this time complexity would be good as I am looping a lot.  I struggled with a lot of the data maping properties.  If I had a second chance I would most likely try to implement a hash table.  Which is what I should of done here.
+
   return (
     <div>
       <h1>Best Meetings</h1>
